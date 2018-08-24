@@ -3,7 +3,6 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Welcome to Grails</title>
-    <parameter name="hello" value="hello world"/>
 </head>
 <body>
     <content tag="nav">
@@ -73,14 +72,7 @@
             </div>
         </section>
     </div>
-
-
-
-<content tag="jsbottom">
-    <asset:javascript src="bootstrap"/>
-
-</content>
-
+    <careAsset:resource src="main.css"/>
 
 </body>
 </html>

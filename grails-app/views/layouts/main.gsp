@@ -10,6 +10,10 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 
     <asset:stylesheet src="application.css"/>
+    do you see me
+    %{--<asset:stylesheet src="main.less"/>--}%
+    <careAsset:layoutCss/>
+
 
     <g:layoutHead/>
 </head>
@@ -44,9 +48,7 @@
         <g:message code="spinner.alt" default="Loading&hellip;"/>
     </div>
 
-<h1> ${pageProperty(name:'page.hello')}</h1>
+    <asset:javascript src="application.js"/>
 
-<asset:javascript src="application.js"/>
-<g:pageProperty name="page.jsbottom"/>
 </body>
 </html>
